@@ -1,0 +1,77 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    margin: 0 auto;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.flex-container{
+    display: flex;
+    padding-bottom: 200px;
+}
+.upper-background{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-background{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+.experience-background{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 50%;
+    
+}
+div img{
+    width: 80%;
+    padding-left: 15px;
+}
+.btn{
+    text-decoration: none;
+    font-weight: 800;
+    padding: 10px 40px;
+    background-image: linear-gradient(black, brown);
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+.name-color{
+    color: orange;
+}
+.item{
+    padding-left: 20px;
+    padding-right: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+    width: 50%;
+    
+    
+}
+#baby-web{
+    box-shadow: 10px 10px 40px black;
+    border-radius: 15px; 
+    border-image: linear-gradient(black, brown);
+    border-image-slice: 1;
+    border-left: 8px solid;
+}
+#full-stack{
+   
+        box-shadow: 10px 10px 40px ;
+        border-radius: 15px; 
+        border-image: linear-gradient(cyan, white);
+        border-image-slice: 1;
+        border-left: 8px solid;
+   
+}
+footer{
+text-align: center;}
